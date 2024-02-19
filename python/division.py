@@ -11,10 +11,10 @@ def division_problems(a, b):
     return int_div, flt_div
 
 def test():
-    a = 20
-    b = 10
+    a = 5
+    b = 2
     int_div, flt_div = division_problems(a, b)
-    assert int_div == 2 and flt_div == 2
+    assert int_div == 2 and flt_div == 2.5
 
 if __name__ == '__main__':
     a = int(input())
